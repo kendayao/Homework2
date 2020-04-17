@@ -1,0 +1,43 @@
+body {
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+h1 {
+    color: red;
+}
+
+
+.navbar-custom {
+    background-color: #FFFFFF;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid darkgrey;
+      
+}
+
+.navbar-brand{
+    background-color: #4cbbb9;
+    padding: 20px;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.navbar-light .navbar-brand{
+    color: #FFFFFF;
+}
+
+.nav-item {
+    padding: 0 15px;
+    border-left: 1px solid #D3D3D3;
+    line-height: 2px;
+    
+    
+}
+
+.nav-item:first-child{
+    border-left: none;
+}
