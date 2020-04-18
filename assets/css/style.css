@@ -16,7 +16,6 @@ h1 {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: 1px solid darkgrey;
-      
 }
 
 .navbar-brand{
@@ -33,11 +32,38 @@ h1 {
 .nav-item {
     padding: 0 15px;
     border-left: 1px solid #D3D3D3;
-    line-height: 2px;
-    
-    
-}
+    line-height: 0.1;
+       }
 
 .nav-item:first-child{
     border-left: none;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5f6769;
+    border-top: 5px solid #4cbbb9;
+    font-size: 10px;
+}
+
+.copyright {
+    margin-bottom: 0px;
+    padding: 10px;
+    
+}
+
+.card {
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+.card-title {
+    color: #4cbbb9;
+    font-size: 25px;
+    
 }
