@@ -97,3 +97,25 @@ img {
     padding: 3%;
 }
 
+.picture {
+    position: relative;
+
+}
+.text {
+    position: absolute;
+    bottom: 10px;
+}
+
+
+
+.portfolio {
+    width: 350px;
+    height: 350px;
+}
+
+h2{
+    background-color: #4cbbb9;
+    color: white;
+    text-align: center;
+    width: 350px;
+}
