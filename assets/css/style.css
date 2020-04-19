@@ -4,7 +4,7 @@ body {
 }
 
 
-.container-fluid {
+.nav-container {
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -23,7 +23,7 @@ body {
     background-color: #4cbbb9;
     padding: 20px;
     font-size: 25px;
-    font-family: serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -39,6 +39,11 @@ body {
 
 .navbar-light .navbar-brand {
     color: #FFFFFF;
+}
+
+.nav-bar-container {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 /* #footer {
@@ -91,3 +96,4 @@ img {
 .fab{
     padding: 3%;
 }
+
