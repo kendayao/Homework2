@@ -113,9 +113,16 @@ img {
     height: 350px;
 }
 
-h2{
+h2 {
     background-color: #4cbbb9;
     color: white;
     text-align: center;
     width: 350px;
+    position: absolute;
+    bottom: 40px;
 }
+
+.portfolio-image {
+    position: relative;
+}
+
