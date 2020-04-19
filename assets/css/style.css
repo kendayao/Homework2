@@ -3,10 +3,11 @@ body {
     
 }
 
-h1 {
-    color: red;
-}
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 .navbar-custom {
     background-color: #FFFFFF;
@@ -23,10 +24,7 @@ h1 {
     padding: 20px;
     font-size: 25px;
     font-family: serif;
-}
-
-.navbar-light .navbar-brand{
-    color: #FFFFFF;
+    
 }
 
 .nav-item {
@@ -39,7 +37,11 @@ h1 {
     border-left: none;
 }
 
-#footer {
+.navbar-light .navbar-brand {
+    color: #FFFFFF;
+}
+
+/* #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -48,13 +50,13 @@ h1 {
     background-color: #5f6769;
     border-top: 5px solid #4cbbb9;
     font-size: 10px;
-}
+} */
 
-.copyright {
+/* .copyright {
     margin-bottom: 0px;
     padding: 10px;
     
-}
+} */
 
 .card {
     margin-top: 25px;
@@ -72,6 +74,8 @@ img {
     margin-bottom: 10px;
 }
 
+
+
 .fa-linkedin {
     color: #0e76a8;
 }
@@ -82,4 +86,8 @@ img {
 
 .fa-at {
     color: #D44638;
+}
+
+.fab{
+    padding: 3%;
 }
