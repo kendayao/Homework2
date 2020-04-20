@@ -128,7 +128,7 @@ button {
     background-color: #FFFFFF;
 }
 
-.portfolio {
+.portfolio-image {
     width: 350px;
     height: 350px;
 }
@@ -138,7 +138,6 @@ h2 {
     color: white;
     position: absolute;
     bottom: 40px;
-    position: inline;
     font-family: sans-serif;
     width: 75%;
     text-align: center;
@@ -146,7 +145,7 @@ h2 {
     
 }
 
-.portfolio-image {
+.portfolio-text-image {
     position: relative;
     
 }
