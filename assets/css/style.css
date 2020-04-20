@@ -52,13 +52,11 @@ body {
 .card {
     margin-top: 25px;
     margin-left: 25px;
-
 }
 
 .card-title {
     color: #4cbbb9;
     font-size: 25px;
-    
 }
 
 /* About Me Page Image */
@@ -82,6 +80,7 @@ body {
 
 .fab{
     padding: 3%;
+    
 }
 
 
@@ -117,7 +116,6 @@ button {
 .copyright {
     margin-bottom: 0px;
     padding: 10px;
-    
 }
 
 /* Portfolio Page */
@@ -131,6 +129,7 @@ button {
 .portfolio-image {
     width: 350px;
     height: 350px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -141,18 +140,14 @@ h2 {
     font-family: sans-serif;
     width: 75%;
     text-align: center;
-    
-    
 }
 
 .portfolio-text-image {
     position: relative;
-    
 }
 
 h5 {
     color: #4cbbb9;
     font-size: 24px;
-    
 }
 
