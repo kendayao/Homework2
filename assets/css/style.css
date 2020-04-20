@@ -2,13 +2,10 @@ body {
     background-color: #f4f4f4;
     
 }
-
-
-.nav-container {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
+.main-body{
+    padding: 5% 5%;
+    }
+/* Navigation Bar */
 .navbar-custom {
     background-color: #FFFFFF;
 }
@@ -41,12 +38,17 @@ body {
     color: #FFFFFF;
 }
 
+.navbar-light .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+
 .nav-bar-container {
     padding-right: 0px;
     padding-left: 0px;
 }
 
-
+/* Main Content Cards */
 .card {
     margin-top: 25px;
     margin-left: 25px;
@@ -59,12 +61,13 @@ body {
     
 }
 
-img {
+/* About Me Page Image */
+.about-me-image {
     margin-bottom: 10px;
 }
 
 
-
+/* Connect with Me Icons */
 .fa-linkedin {
     color: #0e76a8;
 }
@@ -82,7 +85,7 @@ img {
 }
 
 
-
+/* Contact Page  */
 label {
     margin-top: 2%;
 }
@@ -99,9 +102,9 @@ button {
     width: 80%;
 }
 
+/* Footer */
 #footer {
- 
-    color: #FFFFFF;
+     color: #FFFFFF;
     text-align: center;
     background-color: #5f6769;
     border-top: 5px solid #4cbbb9;
@@ -111,16 +114,10 @@ button {
     width: 100%;
 } 
 
-
-
 .copyright {
     margin-bottom: 0px;
     padding: 10px;
     
-}
-
-.main-body{
-padding: 5% 5%;
 }
 
 .portfolio-container{
@@ -158,3 +155,4 @@ h5 {
     font-size: 24px;
     
 }
+
