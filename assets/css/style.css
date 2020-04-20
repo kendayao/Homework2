@@ -23,12 +23,12 @@ body {
     background-color: #4cbbb9;
     padding: 20px;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     
 }
 
 .nav-item {
-    padding: 0 10px;
+    padding: 10px 10px;
     border-left: 1px solid #D3D3D3;
     line-height: 0.1;
        }
@@ -46,22 +46,6 @@ body {
     padding-left: 0px;
 }
 
-/* #footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: #FFFFFF;
-    text-align: center;
-    background-color: #5f6769;
-    border-top: 5px solid #4cbbb9;
-    font-size: 10px;
-} */
-
-/* .copyright {
-    margin-bottom: 0px;
-    padding: 10px;
-    
-} */
 
 .card {
     margin-top: 25px;
@@ -97,16 +81,54 @@ img {
     padding: 3%;
 }
 
-.picture {
-    position: relative;
 
+
+label {
+    margin-top: 2%;
 }
-.text {
-    position: absolute;
-    bottom: 10px;
+button {
+    margin-top: 2%;
+    
 }
 
+.btn-info{
+    background-color: #4cbbb9;
+}
 
+.form-group{
+    width: 80%;
+}
+
+#footer {
+ 
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #5f6769;
+    border-top: 5px solid #4cbbb9;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
+
+
+
+.copyright {
+    margin-bottom: 0px;
+    padding: 10px;
+    
+}
+
+.main-body{
+padding: 5% 5%;
+}
+
+.portfolio-container{
+    border: 1px ridge darkgrey;
+    width: 80%;
+    padding: 3%;
+    background-color: #FFFFFF;
+}
 
 .portfolio {
     width: 350px;
@@ -116,13 +138,23 @@ img {
 h2 {
     background-color: #4cbbb9;
     color: white;
-    text-align: center;
-    width: 350px;
     position: absolute;
     bottom: 40px;
+    position: inline;
+    font-family: sans-serif;
+    width: 75%;
+    text-align: center;
+    
+    
 }
 
 .portfolio-image {
     position: relative;
+    
 }
 
+h5 {
+    color: #4cbbb9;
+    font-size: 24px;
+    
+}
