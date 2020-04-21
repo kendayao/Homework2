@@ -99,7 +99,7 @@ body {
 
 /* Portfolio Page */
 .portfolio-container{
-    border: 1px ridge darkgrey;
+    border: 1px outset #f7f7f7;
     width: 80%;
     padding: 3%;
     background-color: #FFFFFF;
@@ -140,6 +140,7 @@ h5 {
 label {
     margin-top: 2%;
 }
+
 button {
     margin-top: 2%;  
 }
@@ -154,7 +155,7 @@ button {
 
 /* Footer */
 #footer {
-     color: #FFFFFF;
+    color: #FFFFFF;
     text-align: center;
     background-color: #5f6769;
     border-top: 5px solid #4cbbb9;
