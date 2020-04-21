@@ -6,6 +6,18 @@ body {
     padding: 5% 5%;
     }
 
+/* Main Content Cards and side bar cards */
+.card {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+
+.card-title {
+    color: #4cbbb9;
+    font-size: 25px;
+}
+
 /* Navigation Bar */
 .navbar-custom {
     background-color: #FFFFFF;
@@ -45,18 +57,6 @@ body {
 .nav-bar-container {
     padding-right: 0px;
     padding-left: 0px;
-}
-
-/* Main Content Cards */
-.card {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-bottom: 35px;
-}
-
-.card-title {
-    color: #4cbbb9;
-    font-size: 25px;
 }
 
 /* About Me Page Image */
