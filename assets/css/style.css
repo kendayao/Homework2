@@ -1,6 +1,6 @@
 body {
     background-color: #f4f4f4;
-    
+    font-family: 'Lora', serif;
 }
 .main-body{
     padding: 5% 5%;
@@ -20,15 +20,13 @@ body {
     background-color: #4cbbb9;
     padding: 20px;
     font-size: 25px;
-    font-family: sans-serif;
-    
 }
 
 .nav-item {
     padding: 10px 10px;
     border-left: 1px solid #D3D3D3;
     line-height: 0.1;
-       }
+}
 
 .nav-item:first-child{
     border-left: none;
@@ -151,7 +149,6 @@ h2 {
     color: white;
     position: absolute;
     bottom: 40px;
-    font-family: sans-serif;
     width: 90%;
     text-align: center;
 }
