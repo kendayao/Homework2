@@ -70,13 +70,27 @@ body {
     color: #0e76a8;
 }
 
+.fa-linkedin:hover {
+    transform: scale(1.2);
+}
+
+
 .fa-github-square{
     color: black;
+}
+
+.fa-github-square:hover {
+    transform: scale(1.2);
 }
 
 .fa-at {
     color: #D44638;
 }
+
+.fa-at:hover {
+    transform: scale(1.2);
+}
+
 
 .fab{
     padding: 3%;
@@ -127,9 +141,9 @@ button {
 }
 
 .portfolio-image {
-    width: 350px;
+    width: 490px;
     height: 350px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -138,8 +152,13 @@ h2 {
     position: absolute;
     bottom: 40px;
     font-family: sans-serif;
-    width: 75%;
+    width: 90%;
     text-align: center;
+}
+
+h2:hover {
+    color: black;
+    transform: scale(1.1);
 }
 
 .portfolio-text-image {
@@ -150,4 +169,7 @@ h5 {
     color: #4cbbb9;
     font-size: 24px;
 }
+
+
+  
 
