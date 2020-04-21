@@ -91,10 +91,8 @@ body {
     transform: scale(1.2);
 }
 
-
 .fab{
     padding: 3%;
-    
 }
 
 /* Portfolio Page */
@@ -165,7 +163,7 @@ button {
     width: 100%;
 } 
 
-.copyright {
+.footer-name {
     margin-bottom: 0px;
     padding: 10px;
 }
