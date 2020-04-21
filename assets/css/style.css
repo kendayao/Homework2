@@ -5,6 +5,7 @@ body {
 .main-body{
     padding: 5% 5%;
     }
+
 /* Navigation Bar */
 .navbar-custom {
     background-color: #FFFFFF;
@@ -50,6 +51,7 @@ body {
 .card {
     margin-top: 25px;
     margin-left: 25px;
+    margin-bottom: 35px;
 }
 
 .card-title {
@@ -95,47 +97,13 @@ body {
     
 }
 
-
-/* Contact Page  */
-label {
-    margin-top: 2%;
-}
-button {
-    margin-top: 2%;
-    
-}
-
-.btn-info{
-    background-color: #4cbbb9;
-}
-
-.form-group{
-    width: 80%;
-}
-
-/* Footer */
-#footer {
-     color: #FFFFFF;
-    text-align: center;
-    background-color: #5f6769;
-    border-top: 5px solid #4cbbb9;
-    font-size: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-} 
-
-.copyright {
-    margin-bottom: 0px;
-    padding: 10px;
-}
-
 /* Portfolio Page */
 .portfolio-container{
     border: 1px ridge darkgrey;
     width: 80%;
     padding: 3%;
     background-color: #FFFFFF;
+    margin-bottom: 35px;
 }
 
 .portfolio-image {
@@ -166,6 +134,42 @@ h5 {
     color: #4cbbb9;
     font-size: 24px;
 }
+
+
+/* Contact Page  */
+label {
+    margin-top: 2%;
+}
+button {
+    margin-top: 2%;  
+}
+
+.btn-info{
+    background-color: #4cbbb9;
+}
+
+.form-group{
+    width: 80%;
+}
+
+/* Footer */
+#footer {
+     color: #FFFFFF;
+    text-align: center;
+    background-color: #5f6769;
+    border-top: 5px solid #4cbbb9;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
+
+.copyright {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+
 
 
   
