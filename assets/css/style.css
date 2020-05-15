@@ -64,6 +64,12 @@ body {
     margin-bottom: 10px;
 }
 
+.resume{
+   color: #4cbbb9;
+   text-align: center;
+    
+}
+
 
 /* Connect with Me Icons */
 .fa-linkedin {
@@ -94,6 +100,16 @@ body {
 .fab{
     padding: 3%;
 }
+
+.fa-file-pdf{
+    padding: 5%;
+    color: #4cbbb9;
+} 
+
+.fa-file-pdf:hover{
+    transform: scale(1.2);
+} 
+
 
 /* Portfolio Page */
 .portfolio-container{
