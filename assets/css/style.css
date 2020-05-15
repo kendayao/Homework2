@@ -130,12 +130,26 @@ h2 {
     background-color: #4cbbb9;
     color: white;
     position: absolute;
-    bottom: 40px;
+    bottom: 50px;
+    width: 90%;
+    text-align: center;
+}
+
+h6{
+    background-color: #4cbbb9;
+    color: white;
+    position: absolute;
+    bottom: 20px;
     width: 90%;
     text-align: center;
 }
 
 h2:hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+h6:hover {
     color: black;
     transform: scale(1.1);
 }
