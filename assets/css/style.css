@@ -2,6 +2,7 @@ body {
     background-color: #f4f4f4;
     font-family: 'Lora', serif;
 }
+
 .main-body{
     padding: 5% 5%;
     }
@@ -204,9 +205,88 @@ button {
     margin-bottom: 10px;
 }
 
+.top-body{
+    padding-top: 2%;
+    text-align: center;
+    background-color: #def4f0;
+    color: #4cbbb9 ;
+}
 
 
 
+/* styles for top body on about me page */
+.buildings{
+    height: 400px;
+    margin-bottom: 0px;
+}
 
-  
+.title{
+    font-family: 'Sacramento', cursive;
+    color: #4cbbb9 ;
+    font-size: 50px;
+}
 
+.subtitle{
+    font-size: 20px;
+}
+
+.cloud1{
+    position: relative;
+    animation: mymove 15s infinite;
+
+}
+
+@keyframes mymove {
+    0%   {left: 0px;}
+    100% {right: 500px;}
+  }
+
+  .cloud2{
+    position: relative;
+    animation: mymove 20s infinite;
+
+}
+
+@keyframes mymove {
+    0%   {left: 0px;}
+    100% {left: 300px;}
+  }
+
+  .cloud3{
+    position: relative;
+    animation: mymove 25s infinite;
+
+}
+
+@keyframes mymove {
+    0%   {left: 0px;}
+    100% {left: 500px;}
+  }
+
+  .cloud4{
+    position: relative;
+    animation: mymove 35s infinite;
+
+}
+
+@keyframes mymove {
+    0%   {left: 0px;}
+    100% {left: 500px;}
+  }
+
+.sun{
+    width:100px;
+    height: 100px;
+}
+
+.building-attribution{
+font-size: 8px;
+background-color: lightgreen;
+margin-bottom: 0px;
+}
+
+.sun-attribution{
+font-size: 8px;
+background-color:lightgreen;
+margin-bottom: 0px;
+}
