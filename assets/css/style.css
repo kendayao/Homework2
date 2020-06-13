@@ -232,46 +232,46 @@ button {
 
 .cloud1{
     position: relative;
-    animation: mymove 15s infinite;
+    animation: cloud1 15s infinite;
 
 }
 
-@keyframes mymove {
-    0%   {left: 0px;}
-    100% {right: 500px;}
+@keyframes cloud1 {
+    from {left: 0px;}
+    to {left: 300px;}
   }
 
   .cloud2{
     position: relative;
-    animation: mymove 20s infinite;
+    animation: cloud2 10s infinite;
 
 }
 
-@keyframes mymove {
-    0%   {left: 0px;}
-    100% {left: 300px;}
+@keyframes cloud2 {
+    from {left: 0px;}
+    to {left: 100px;}
   }
 
   .cloud3{
     position: relative;
-    animation: mymove 25s infinite;
+    animation: cloud3 25s infinite;
 
 }
 
-@keyframes mymove {
-    0%   {left: 0px;}
-    100% {left: 500px;}
+@keyframes cloud3 {
+    from {left: 0px;}
+    to {left: 500px;}
   }
 
   .cloud4{
     position: relative;
-    animation: mymove 35s infinite;
+    animation: cloud4 35s infinite;
 
 }
 
-@keyframes mymove {
-    0%   {left: 0px;}
-    100% {left: 500px;}
+@keyframes cloud4 {
+    from {left: 0px;}
+    to {left: 500px;}
   }
 
 .sun{
